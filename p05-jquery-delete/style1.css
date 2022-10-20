@@ -1,0 +1,106 @@
+body {
+    font-family: "Rockwell", "Arial Narrow", Arial, sans-serif;
+    background-image: url('https://i.postimg.cc/gkTsyPLZ/2420.png');
+    background-size: cover;
+    background-attachment: fixed; 
+    color: black;
+    text-shadow: white;
+}
+span {
+    color: blue;
+}
+h1{
+    color: blue;
+    background-color: skyblue;
+    opacity: 60%;
+    display: inline-block;
+    padding: 9px;
+    background-size: 30px;
+    font-weight: bold;
+    margin-top: 2px;
+    border: auto;
+    border-radius: 80px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+h1:hover{
+    color: blue;
+    letter-spacing: 4px;
+}
+
+img{
+    width: 4cm;
+    border-top: 80%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px gray;
+    padding: 6px;
+    background: white;
+    margin: 15px;
+    transition: 0.2s;
+    opacity: 93%;
+    width: 6cm;
+    height: 6cm;
+    object-fit: cover;
+}
+
+img:hover{
+    transform: scale(1.2);
+    opacity: 100%;
+    box-shadow: 1px 1px 6px white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+
+
+}
+
+td:first-child{
+    text-align: center;
+
+
+}
+
+.judul{
+    text-align: center;
+    font-size: 30px;
+}
+
+.judul-tabel{
+    background-color: blue;
+    color: white;
+}
+
+.top1{
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+}
+.tombol{
+    background-color: blue;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.tombol:hover{
+    background-color: skyblue;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+td:hover{
+    background-color: skyblue;
+}
